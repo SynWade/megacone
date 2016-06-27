@@ -1,0 +1,188 @@
+body
+{
+	margin:0px;
+	background-color:#d4e1fb;
+}
+
+#main
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+#title_top
+{
+	width:980px;
+	background-color:#ffffff;
+}
+
+#title_container
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title
+{
+	display:inline;
+	font-size:80px;
+	top:0px;
+	left:236px;
+	vertical-align:top;
+}
+
+#logo
+{
+	display:inline;
+	height:170px;
+}
+/*
+#navigation
+{
+	height: 50px;
+}
+
+.navigation_button_container
+{
+	background-color:#694D2C;
+	float:left;
+	border:1px solid black;
+}
+
+
+.navigation_button
+{
+	margin-left:26.25px;
+	margin-right:26.25px;
+	font-size:40px;
+	text-decoration:none;
+	color:#d8b07c;
+}
+*/
+.footer_button_container
+{
+	padding-top:10px;
+	background-color:#6e9eff;
+	float:left;
+	text-align:center;
+	font-size:15px;
+	padding-left:37.3px;
+	padding-right:37.3px;
+	height:25px;
+}
+
+.footer_button_container_long
+{
+	background-color:#6e9eff;
+	float:left;
+	text-align:center;
+	font-size:15px;
+	padding-left:22.3px;
+	padding-right:22.3px;
+	height:35px;
+}
+
+.footer_button
+{
+	text-decoration:none;
+	color:#ffffff;
+}
+#footer
+{
+	border: 4px solid #083c5d;
+	height: 70px;
+	background-color:#6e9eff;
+}
+
+#carousel_inner {  
+float:left; /* important for inline positioning */  
+width:808px; /* important (this width = width of list item(including margin) * items shown */  
+overflow: hidden;  /* important (hide the items outside the div) */
+/* non-important styling bellow */ 
+}  
+  
+#carousel_ul {  
+position:relative;  /* important (this should be negative number of list items width(including margin) */  
+list-style-type: none; /* removing the default styling for unordered list items */  
+margin: 0px;  
+padding: 0px;
+left: -91px;
+width:9999px; /* important */  
+/* non-important styling bellow */  
+padding-bottom:10px;  
+}  
+  
+#carousel_ul li{  
+float: left; /* important for inline positioning of the list items */  
+width:165px;  /* fixed width, important */  
+/* just styling bellow*/  
+padding:0px;
+height:900px;
+}  
+  
+#carousel_ul li img {  
+margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that */  
+/* styling */
+cursor:pointer;  
+cursor: hand;  
+border:0px;  
+}  
+#left_scroll, #right_scroll{  
+float:left;  
+height:900px;  
+width:86px;   
+}  
+#left_scroll img, #right_scroll img{  
+border:0; /* remove the default border of linked image */  
+/*styling*/  
+cursor: pointer;  
+cursor: hand;  
+  
+}
+
+#imageText
+{
+position:absolute;
+width:808px;
+font-size:33px;
+margin-left:87px;
+margin-top:0px;
+color:white;
+}
+@-moz-document url-prefix()
+{
+	.navigation_button
+	{
+		margin-left:25.55px;
+		margin-right:25.55px;
+	}
+	.footer_button_container
+	{
+		padding-left:36px;
+		padding-right:36px;
+	}
+	.footer_button_container_long
+	{
+		padding-left:36px;
+		padding-right:36px;
+	}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.navigation_button
+	{
+		margin-left:20.2px;
+		margin-right:20.2px;
+	}
+	.footer_button_container
+	{
+		padding-left:36px;
+		padding-right:36px;
+	}
+	.footer_button_container_long
+	{
+		padding-left:36px;
+		padding-right:36px;
+	}
+}
