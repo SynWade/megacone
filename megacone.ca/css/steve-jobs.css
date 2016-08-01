@@ -647,3 +647,56 @@ body, ul, table, form{
   width: 0;
   border-top: 28.87px solid #FFC1CC;
 }
+.firstName
+{
+	margin-left:115px;
+}
+.lastName
+{
+	margin-left:118px;
+}
+.phoneNumber
+{
+	margin-left:87px;
+}
+.email
+{
+	margin-left:153px;
+}
+.eventType
+{
+	margin-left:113px;
+	width:173px;
+}
+.numberPeople
+{
+	margin-left:66px;
+	width:173px;
+}
+.iceCreamTruck
+{
+	margin-left:22px;
+	width:173px;
+}
+.lemonadeTrailer
+{
+	margin-left:16px;
+	width:173px;
+}
+.crepeTruck
+{
+	margin-left:51px;
+	width:173px;
+}
+.location
+{
+	margin-left:132px;
+}
+.date
+{
+	margin-left:160px;
+}
+.time
+{
+	margin-left:157px;
+}

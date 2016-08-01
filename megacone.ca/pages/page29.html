@@ -1,3 +1,4 @@
+<!--
 <div class="book-content">
 
 <h2>The West Coast Computer Faire</h2>
@@ -18,5 +19,76 @@ Apple Computer received 300 orders for the Apple II on the show alone,
 twice as much as the total number of Apple I’s ever sold! But this was just the beginning.
 </p>
 
+</div>
+<span class="page-number">29</span>
+-->
+<div class="book-content" style="border:2px dashed #000000">
+	<form action="php/submit.php" method="post">
+		<label for="firstName" id="firstName">First Name:</label>
+		<input type="text" name="firstName" class="firstName">
+		<br>
+		<br>
+		<label for="lastName" id="lastName">Last Name:</label>
+		<input type="text" name="lastName" class="lastName">
+		<br>
+		<br>
+		<label for="phoneNumber" id="phoneNumber">Phone Number:</label>
+		<input type="text" name="phoneNumber" class="phoneNumber">
+		<br>
+		<br>
+		<label for="email" id="email">Email:</label>
+		<input type="text" name="email" class="email">
+		<br>
+		<br>
+		<label for="eventType" id="eventType">Event Type:</label>
+		<select name="eventType" class="eventType">
+			<option value="wedding">Wedding</option>
+			<option value="birthday">Birthday</option>
+			<option value="Social Gathering">Social Gathering</option>
+			<option value="festival">Festival</option>
+			<option value="Corporate Function">Corporate Function</option>
+			<option value="other">Other</option>
+		</select>
+		<br>
+		<label for="numberPeople" id="numberPeople">Number of People:</label>
+		<select name="numberPeople" class="numberPeople">
+			<option value="0-25">0-25</option>
+			<option value="25-50">25-50</option>
+			<option value="50-100">50-100</option>
+			<option value="100-200">100-200</option>
+			<option value="200+">200+</option>
+		</select>
+		<br>
+		<label for="iceCreamTruck" id="iceCreamTruck">Include Ice Cream Truck:</label>
+		<select name="iceCreamTruck" class="iceCreamTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="lemonadeTrailer" id="lemonadeTrailer">Include Lemonade Trailer:</label>
+		<select name="lemonadeTrailer" class="lemonadeTrailer">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="crepeTruck" id="crepeTruck">Include Crepe Truck:</label>
+		<select name="crepeTruck" class="crepeTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<br>
+		<label for="location" id="location">Location:</label>
+		<input type="text" name="location" class="location">
+		<br>
+		<br>
+		<label for="date" id="date">Date:</label>
+		<input type="text" name="date" class="date">
+		<br>
+		<br>
+		<label for="time" id="time">Time:</label>
+		<input type="text" name="time" class="time">
+		<input type="submit" name="submit" value="Submit" style="width:100%;border-radius:25px;background-color:white;border:2px solid #083c5d;margin-top:13px">
+	</form>
 </div>
 <span class="page-number">29</span>
