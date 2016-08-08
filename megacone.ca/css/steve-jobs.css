@@ -319,6 +319,7 @@ body, ul, table, form{
 
 .sj-book .table-contents span{
 	float:right;
+	margin-right:10px;
 }
 
 .sj-book .table-contents a{
