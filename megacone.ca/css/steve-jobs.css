@@ -1590,6 +1590,182 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e5ab', end
   border-top: 28.87px solid #7B3F00;
 }
 /********************************************************************/
+								/*Fruit Bar Flavours*/
+/********************************************************************/
+
+.hexCnb {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #FFE135;
+  margin: 116.13px 18px;
+}
+
+.hexCnb:before,
+.hexCnb:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexCnb:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #FFE135;
+}
+
+.hexCnb:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #FFE135;
+}
+/********************************************************************/
+
+.hexStr {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #FC5A8D;
+  margin: -86.87px 70px;
+}
+
+.hexStr:before,
+.hexStr:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexStr:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #FC5A8D;
+}
+
+.hexStr:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #FC5A8D;
+}
+/********************************************************************/
+
+.hexCcn {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #965A3E;
+  margin: 29.13px 172px;
+}
+
+.hexCcn:before,
+.hexCcn:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexCcn:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #965A3E;
+}
+
+.hexCcn:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #965A3E;
+}
+/********************************************************************/
+
+.hexPnc {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #F3E5AB;
+  margin: -173.58px 223px;
+}
+
+.hexPnc:before,
+.hexPnc:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexPnc:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #F3E5AB;
+}
+
+.hexPnc:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #F3E5AB;
+}
+/********************************************************************/
+
+.hexPna {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #fbd5a5;
+  margin: 290.13px 19px;
+}
+
+.hexPna:before,
+.hexPna:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexPna:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #fbd5a5;
+}
+
+.hexPna:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #fbd5a5;
+}
+/********************************************************************/
+
+.hexMng {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #ffa439;
+  margin: -348.71px 223px;
+}
+
+.hexMng:before,
+.hexMng:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexMng:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #ffa439;
+}
+
+.hexMng:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #ffa439;
+}
+/**************************************************/
 
 								/*FORM INPUTS*/
 							
