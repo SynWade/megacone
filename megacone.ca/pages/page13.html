@@ -1,9 +1,59 @@
+<script>
+$(".bubble").click(function() {
+    $(this).stop(true, false);
+    $(this).hide("explode", {
+        pieces: 50
+    }, 250);
+});
+
+function animate1(bubble) {
+    $(bubble).animate({
+        "-moz-border-radius": "110px/100px",
+        "-webkit-border-radius": "110px 100px",
+        "border-radius": "110px/100px",
+        height: '100px',
+        width: '110px'
+    }, 750, animate2(bubble));
+}
+
+function animate2(bubble) {
+    $(bubble).animate({
+        "-moz-border-radius": "100px/110px",
+        "-webkit-border-radius": "100px 110px",
+        "border-radius": "100px/110px",
+        height: '110px',
+        width: '100px'
+    }, 750, function() {
+        $(bubble).trigger('mouseover');
+    });
+}
+
+$(".bubble").mouseover(function() {
+    animate1(this);
+});
+
+$(".bubble").mouseout(function() {
+    $(this).stop(true, false);
+});
+</script>
+<div style="border-bottom:1px dashed;border-left:1px dashed; border-bottom-left-radius:2em;border-radius: 50%; width:150px; height:150px;position: absolute;left: 385px;top: -75px; opacity:0.5">
+	<p style="word-wrap:break-word; width:40px; text-align:center; float:left; margin-top:79px; margin-left:30px;">Click & Drag</p>
+</div>
 <div class="book-content">
 
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,400' rel='stylesheet' type='text/css'>
 
 <h1 style="text-align:center;width:100%">Flavours</h1>
-
+	<div id="bubble1" class="bubble">
+		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Chocolate</p>
+	</div>
+	<div id="bubble2" class="bubble">
+		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Vanilla</p>
+	</div>
+	<div id="bubble3" class="bubble">
+		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Twist</p>
+	</div>
+	<!--
 	<div class=col1>
 		<div class="hexC">
 			<p class="flavour-text">Chocolate</p>
@@ -15,5 +65,6 @@
 			<p class="flavour-text">Twist</p>
 		</div>
 	</div>
+	-->
 </div>
 <span class="page-number">13</span>

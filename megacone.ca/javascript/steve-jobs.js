@@ -235,3 +235,57 @@ function isChrome() {
 	return navigator.userAgent.indexOf('Chrome')!=-1;
 
 }
+
+//Bubble Animation
+$(".bubble").click(function() {
+    $(this).stop(true, false);
+    $(this).hide("explode", {
+        pieces: 50
+    }, 250);
+});
+
+function animate1(bubble) {
+    $(bubble).animate({
+        "-moz-border-radius": "110px/100px",
+        "-webkit-border-radius": "110px 100px",
+        "border-radius": "110px/100px",
+        height: '100px',
+        width: '110px',
+    }, 1500, animate2(bubble));
+}
+
+function animate2(bubble) {
+    $(bubble).animate({
+        "-moz-border-radius": "100px/110px",
+        "-webkit-border-radius": "100px 110px",
+        "border-radius": "100px/110px",
+        height: '110px',
+        width: '100px',
+    }, 1500, function() {
+        $(bubble).trigger('mouseover');
+    });
+}
+
+$("#bubble1").mouseover(function() {
+    animate1(document.getElementById("bubble1"));
+});
+
+$("#bubble1").mouseout(function() {
+    $(document.getElementById("bubble1")).stop(true, false);
+});
+
+$("#bubble2").mouseover(function() {
+    animate1(document.getElementById("bubble2"));
+});
+
+$("#bubble2").mouseout(function() {
+    $(document.getElementById("bubble2")).stop(true, false);
+});
+
+$("#bubble3").mouseover(function() {
+    animate1(document.getElementById("bubble3"));
+});
+
+$("#bubble3").mouseout(function() {
+    $(document.getElementById("bubble3")).stop(true, false);
+});

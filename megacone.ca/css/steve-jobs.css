@@ -3,8 +3,8 @@
 @font-face {
   font-family: 'Stempel-Garamond-W01-Roman';
   font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/Stempel-Garamond-W01-Roman.woff') format('woff');
+  font-weight: bold;
+  src: url('../fonts/IceCreamPartySolid.ttf');
 }
 
 body, ul, table, form{
@@ -1943,4 +1943,141 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e5ab', end
 .time
 {
 	margin-left:157px;
+}
+/*****************Bubbles CSS************************/
+#bubble1 {
+    width: 100px;
+    height: 100px;
+    background: #4E2E28;
+    border-radius: 100px/100px;
+    -webkit-border-radius: 100px 100px;
+    -moz-border-radius: 100px/100px;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    text-align: center;
+    behavior: url(PIE.htc); //using css3pie for IE http://css3pie.com
+}
+
+#bubble2 {
+    width: 100px;
+    height: 100px;
+    background: #F3E5AB;
+    border-radius: 100px/100px;
+    -webkit-border-radius: 100px 100px;
+    -moz-border-radius: 100px/100px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    text-align: center;
+    behavior: url(PIE.htc); //using css3pie for IE http://css3pie.com
+}
+
+#bubble3 {
+	width: 100px;
+    height: 100px;
+	background: linear-gradient(to top, #4E2E28 0%, #F3E5AB 100%);
+    border-radius: 100px/100px;
+    -webkit-border-radius: 100px 100px;
+    -moz-border-radius: 100px/100px;
+    text-align: center;
+    behavior: url(PIE.htc); //using css3pie for IE http://css3pie.com
+}
+
+#bubble3::before{
+	background-image: linear-gradient(to bottom, #4E2E28 0%, #F3E5AB 100%);
+	position: absolute;
+	top: 20px;
+    left: 20px;
+}
+
+.hexC {
+  position: absolute;
+  width: 175px; 
+  height: 101.04px;
+  background-color: #4E2E28;
+  margin: 88.52px 46px;
+}
+
+.hexC:before,
+.hexC:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 87.5px solid transparent;
+  border-right: 87.5px solid transparent;
+}
+
+.hexC:before {
+  bottom: 100%;
+  border-bottom: 50.52px solid #4E2E28;
+}
+
+.hexC:after {
+  top: 100%;
+  width: 0;
+  border-top: 50.52px solid #4E2E28;
+}
+
+								/*Hex for Vanilla*/
+.hexV {
+  position: absolute;
+  width: 175px; 
+  height: 101.04px;
+  background-color: #F3E5AB;
+  margin: 325.52px 46px;
+}
+
+.hexV:before,
+.hexV:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 87.5px solid transparent;
+  border-right: 87.5px solid transparent;
+}
+
+.hexV:before {
+  bottom: 100%;
+  border-bottom: 50.52px solid #F3E5AB;
+}
+
+.hexV:after {
+  top: 100%;
+  width: 0;
+  border-top: 50.52px solid #F3E5AB;
+}
+
+								/*Hex for Twist*/
+.hexT {
+  position: absolute;
+  width: 175px; 
+  height: 101.04px;
+  margin: 206.52px 200px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e5ab+0,4e2e28+85,4e2e28+100,4e2e28+100,4e2e28+100 */
+background: #f3e5ab; /* Old browsers */
+background: -moz-linear-gradient(top, #f3e5ab 0%, #4e2e28 85%, #4e2e28 100%, #4e2e28 100%, #4e2e28 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f3e5ab 0%,#4e2e28 85%,#4e2e28 100%,#4e2e28 100%,#4e2e28 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f3e5ab 0%,#4e2e28 85%,#4e2e28 100%,#4e2e28 100%,#4e2e28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e5ab', endColorstr='#4e2e28',GradientType=0 ); /* IE6-9 */
+}
+
+.hexT:before,
+.hexT:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 87.5px solid transparent;
+  border-right: 87.5px solid transparent;
+}
+
+.hexT:before {
+  bottom: 100%;
+  border-bottom: 50.52px solid #F3E5AB;
+}
+
+.hexT:after {
+  top: 100%;
+  width: 0;
+  border-top: 50.52px solid #4E2E28;
 }
