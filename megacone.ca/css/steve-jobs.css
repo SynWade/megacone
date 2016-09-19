@@ -4,7 +4,8 @@
   font-family: 'Stempel-Garamond-W01-Roman';
   font-style: normal;
   font-weight: bold;
-  src: url('../fonts/IceCreamPartySolid.ttf');
+  color: red;
+  src: url('../fonts/Stempel-Garamond-W01-Roman.woff');
 }
 
 body, ul, table, form{
@@ -165,8 +166,8 @@ body, ul, table, form{
 .sj-book .p1,
 .sj-book .p2,
 .sj-book .p3, 
-.sj-book .p73, 
-.sj-book .p74{
+.sj-book .p75, 
+.sj-book .p76{
 	background-color:white;
 	background-image:url(../images/book-covers.jpg) !important;
 }
@@ -235,11 +236,11 @@ body, ul, table, form{
 	background-position:-1920px 0 !important;
 }
 
-.sj-book .p73{
+.sj-book .p75{
 	background-position:-960px 0 !important;
 }
 
-.sj-book .p74{
+.sj-book .p76{
 	background-position:-1440px 0 !important;
 }
 
@@ -2080,4 +2081,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e5ab', end
   top: 100%;
   width: 0;
   border-top: 50.52px solid #4E2E28;
+}
+
+.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p29, .own-size.page.p31 {
+    background-image: url("../images/menu/background.jpg");
+}
+
+@font-face {
+  font-family: 'chalkboard1';
+  font-style: normal;
+  src: url('../fonts/BlackBoard.ttf');
 }

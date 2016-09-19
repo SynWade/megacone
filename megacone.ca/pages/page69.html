@@ -1,35 +1,97 @@
 <!--
 <div class="book-content">
 
-<p class="no-indent">
+<h2>The West Coast Computer Faire</h2>
 <p>
-
-
-Woz used it himself to write the 
-<img class="left-pic zoom-this" src="samples/steve-jobs/pics/10.jpg" width="150" height="345">
-first program to ever run on the machine, a game called Breakout. The eight expansion slots in Apple II made a difference, too. Woz decided to
-implement them against Steve Jobs’ will, and this proved a wise move, as they allowed for all kinds of new features and software to be added to the
-machine. One of those features was Disk II, a floppy disk drive Apple started shipping in early 1978. It made the sharing and installing of new software
-very easy — soon the supply of Apple II software was thriving.
+The new company got ready to show off their product at the West Coast Computer Faire, a conference held in San Francisco in April 1977. It was only
+a prototype, but the plastic case definitely made the Apple II look like a professional product. Steve negotiated a prime spot for Apple’s booth, and
+took precious advice from both Mike Markkula and Regis McKenna. That’s why he bought his first suit for the occasion.
 </p>
 
+<blockquote>
+My recollection is we stole the show
+</blockquote>
+
+<cite>Steve Jobs in Triumph of the Nerds</cite>
+
 <p>
-But probably the most important push toward the
+Apple Computer received 300 orders for the Apple II on the show alone,
+twice as much as the total number of Apple I’s ever sold! But this was just the beginning.
 </p>
+
 </div>
-<span class="page-number">31</span>
+<span class="page-number">29</span>
 -->
 <div style="border-bottom:1px dashed;border-left:1px dashed; border-bottom-left-radius:2em;border-radius: 50%; width:150px; height:150px;position: absolute;left: 385px;top: -75px; opacity:0.5">
 	<p style="word-wrap:break-word; width:40px; text-align:center; float:left; margin-top:79px; margin-left:30px;">Click & Drag</p>
 </div>
-<div class="book-content">
-<p>
-	We are a family owned and operated company. Based out of London, Kitchener-Waterloo and Guelph. We have been serving ice cream for the past 16 years, and we only incorporate the best quality products in our menu. We are firm believers that our customers deserve the best service, and best products, and that's what we endevour to provide. For the moment our fleet consists of 3 ice cream trucks, a lemonade trailer, and a gourmet crepe truck.
-</p>
-<p>
-	Nothing tastes better on a warm day than a Megacone soft serve ice cream, and we know it. If you're looking for catering look no further, we do everything including: large corporate events, shift work manufacturing, birthday parties, weddings, golf tournaments, social gatherings, concerts, car shows, and all sorts of festivals. So if you're looking for a quality, cost effective service, you need not look any further. We will go the extra mile for you.
-</p>
+<div class="book-content" style="border:2px dashed #000000">
+	<form action="php/submit.php" method="post">
+		<label for="firstName" id="firstName">First Name:</label>
+		<input type="text" name="firstName" class="firstName">
+		<br>
+		<br>
+		<label for="lastName" id="lastName">Last Name:</label>
+		<input type="text" name="lastName" class="lastName">
+		<br>
+		<br>
+		<label for="phoneNumber" id="phoneNumber">Phone Number:</label>
+		<input type="text" name="phoneNumber" class="phoneNumber">
+		<br>
+		<br>
+		<label for="email" id="email">Email:</label>
+		<input type="text" name="email" class="email">
+		<br>
+		<br>
+		<label for="eventType" id="eventType">Event Type:</label>
+		<select name="eventType" class="eventType">
+			<option value="wedding">Wedding</option>
+			<option value="birthday">Birthday</option>
+			<option value="Social Gathering">Social Gathering</option>
+			<option value="festival">Festival</option>
+			<option value="Corporate Function">Corporate Function</option>
+			<option value="other">Other</option>
+		</select>
+		<br>
+		<label for="numberPeople" id="numberPeople">Number of People:</label>
+		<select name="numberPeople" class="numberPeople">
+			<option value="0-25">0-25</option>
+			<option value="25-50">25-50</option>
+			<option value="50-100">50-100</option>
+			<option value="100-200">100-200</option>
+			<option value="200+">200+</option>
+		</select>
+		<br>
+		<label for="iceCreamTruck" id="iceCreamTruck">Include Ice Cream Truck:</label>
+		<select name="iceCreamTruck" class="iceCreamTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="lemonadeTrailer" id="lemonadeTrailer">Include Lemonade Trailer:</label>
+		<select name="lemonadeTrailer" class="lemonadeTrailer">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="crepeTruck" id="crepeTruck">Include Crepe Truck:</label>
+		<select name="crepeTruck" class="crepeTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<br>
+		<label for="location" id="location">Location:</label>
+		<input type="text" name="location" class="location">
+		<br>
+		<br>
+		<label for="date" id="date">Date:</label>
+		<input type="text" name="date" class="date">
+		<br>
+		<br>
+		<label for="time" id="time">Time:</label>
+		<input type="text" name="time" class="time">
+		<input type="submit" name="submit" value="Submit" style="width:100%;border-radius:25px;background-color:white;border:2px solid #083c5d;margin-top:13px">
+	</form>
 </div>
 <span class="page-number">69</span>
-<!--
--->

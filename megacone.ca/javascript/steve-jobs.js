@@ -19,12 +19,12 @@ function updateDepth(book, newPage) {
 		depthWidth = 16*Math.min(1, (pages-page)*2/pages);
 
 	if (newPage<pages-3)
-		$('.sj-book .p73 .depth').css({
+		$('.sj-book .p75 .depth').css({
 			width: depthWidth,
 			right: 20 - depthWidth
 		});
 	else
-		$('.sj-book .p73 .depth').css({width: 0});
+		$('.sj-book .p75 .depth').css({width: 0});
 
 }
 
@@ -192,7 +192,7 @@ function moveBar(yes) {
 function setPreview(view) {
 
 	var previewWidth = 115,
-		previewHeight = 73,
+		previewHeight = 75,
 		previewSrc = 'pages/preview.jpg',
 		preview = $(_thumbPreview.children(':first')),
 		numPages = (view==1 || view==$('#slider').slider('option', 'max')) ? 1 : 2,
