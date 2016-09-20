@@ -269,21 +269,21 @@ body, ul, table, form{
 }
 
 .sj-book .even{
-	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
-	background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #F8ECC5), color-stop(1, #939393));
+	background-image:-webkit-linear-gradient(left, #F8ECC5 95%, #939393 100%);
+	background-image:-moz-linear-gradient(left, #F8ECC5 95%, #939393 100%);
+	background-image:-ms-linear-gradient(left, #F8ECC5 95%, #939393 100%);
+	background-image:-o-linear-gradient(left, #F8ECC5 95%, #939393 100%);
+	background-image:linear-gradient(left, #F8ECC5 95%, #939393 100%);
 }
 
 .sj-book .odd{
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
-	background-image:-webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-moz-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-ms-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-o-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:linear-gradient(right, #fff 95%, #cacaca 100%);
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #F8ECC5), color-stop(1, #939393));
+	background-image:-webkit-linear-gradient(right, #F8ECC5 95%, #939393  100%);
+	background-image:-moz-linear-gradient(right, #F8ECC5 95%, #939393  100%);
+	background-image:-ms-linear-gradient(right, #F8ECC5 95%, #939393  100%);
+	background-image:-o-linear-gradient(right, #F8ECC5 95%, #939393  100%);
+	background-image:linear-gradient(right, #F8ECC5 95%, #939393  100%);
 }
 
 .sj-book .loader{
@@ -2083,12 +2083,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e5ab', end
   border-top: 50.52px solid #4E2E28;
 }
 
-.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p29, .own-size.page.p31 {
+.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p27, .own-size.page.p29, .own-size.page.p31 {
     background-image: url("../images/menu/background.jpg");
 }
-
+.own-size.page.p25{
+    background-image: url("../images/menu/frappeBkgdSized.png");
+	}
+.own-size.page.p32{
+    background-color:#74B5BD;
+	}
+	
 @font-face {
   font-family: 'chalkboard1';
   font-style: normal;
-  src: url('../fonts/BlackBoard.ttf');
+  src: url('../fonts/EraserRegular.ttf');
 }
