@@ -1,41 +1,3 @@
-<script>
-$(".bubble").click(function() {
-    $(this).stop(true, false);
-    $(this).hide("explode", {
-        pieces: 50
-    }, 250);
-});
-
-function animate1(bubble) {
-    $(bubble).animate({
-        "-moz-border-radius": "110px/100px",
-        "-webkit-border-radius": "110px 100px",
-        "border-radius": "110px/100px",
-        height: '100px',
-        width: '110px'
-    }, 750, animate2(bubble));
-}
-
-function animate2(bubble) {
-    $(bubble).animate({
-        "-moz-border-radius": "100px/110px",
-        "-webkit-border-radius": "100px 110px",
-        "border-radius": "100px/110px",
-        height: '110px',
-        width: '100px'
-    }, 750, function() {
-        $(bubble).trigger('mouseover');
-    });
-}
-
-$(".bubble").mouseover(function() {
-    animate1(this);
-});
-
-$(".bubble").mouseout(function() {
-    $(this).stop(true, false);
-});
-</script>
 <div style="border-bottom:1px dashed;border-left:1px dashed; border-bottom-left-radius:2em;border-radius: 50%; width:150px; height:150px;position: absolute;left: 385px;top: -75px; opacity:0.5; color:#fff;">
 	<p style="word-wrap:break-word; width:40px; text-align:center; float:left; margin-top:79px; margin-left:30px;">Click & Drag</p>
 </div>
@@ -44,33 +6,16 @@ $(".bubble").mouseout(function() {
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,400' rel='stylesheet' type='text/css'>
 
 <h1 style="text-align:center;width:100%; font-family:'chalkboard1'; font-size:66px; -webkit-text-fill-color:initial; -webkit-text-stroke-color:initial; -webkit-text-stroke-width:initial; color:#fff;">Flavours</h1>
-<text style="color:#F3E5AB; font-family:'chalkboard1'; font-size:33px">Vanilla</text>
-</br>
-<text style="color:#7B3F00; font-family:'chalkboard1'; font-size:33px">Chocolate</text>
-</br>
-<text style="color:#F3E5AB; font-family:'chalkboard1'; font-size:33px">Tw</text><text style="color:#7B3F00; font-family:'chalkboard1'; font-size:33px">ist</text>
-<!--
-	<div id="bubble1" class="bubble">
-		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Chocolate</p>
-	</div>
-	<div id="bubble2" class="bubble">
-		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Vanilla</p>
-	</div>
-	<div id="bubble3" class="bubble">
-		<p style="line-height:100px;text-align:center;margin:0px;text-indent:0px;font-size:30px">Twist</p>
-	</div>
-	<div class=col1>
-		<div class="hexC">
-			<p class="flavour-text">Chocolate</p>
-		</div>
-		<div class="hexV">
-			<p class="flavour-text">Vanilla</p>
-		</div>
-		<div class="hexT">
-			<p class="flavour-text">Twist</p>
-		</div>
-	</div>
-	-->
+<text style="color:#E30B5D; font-family:'chalkboard1'; font-size:33px">Raspberry</text></br>
+<text style="color:#32CD32; font-family:'chalkboard1'; font-size:33px">Lime</text></br>
+<text style="color:#FF7F00; font-family:'chalkboard1'; font-size:33px">Orange</text></br>
+<text style="color:#FFC1CC; font-family:'chalkboard1'; font-size:33px">Bubblegum</text></br>
+<text style="color:#DE3163; font-family:'chalkboard1'; font-size:33px">Cherry</text></br>
+<text style="color:#FC6C85; font-family:'chalkboard1'; font-size:33px">Watermelon</text></br>
+<text style="color:#E5CA2F; font-family:'chalkboard1'; font-size:33px">Banana</text></br>
+<text style="color:#FC5A8D; font-family:'chalkboard1'; font-size:33px">Strawberry</text></br>
+<text style="color:#6F2DA8; font-family:'chalkboard1'; font-size:33px">Grape</text>
+
 </div>
 <span class="page-number">13</span>
 <a href="#page/30" style="position:absolute; bottom:0px; right:80px; display:flex; width:initial; text-decoration:none; font-size:15px" class="page-number">Lemonade &rarr;</a>

@@ -21,8 +21,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p75"> <div class="depth"></div> </div>
-			<div class="hard p76"></div>
+			<div class="hard fixed back-side p89"> <div class="depth"></div> </div>
+			<div class="hard p90"></div>
 		</div>
 	</div>
 	<!--
@@ -170,7 +170,7 @@ function loadApp() {
 		autoCenter: true,
 		gradients: true,
 		duration: 1000,
-		pages: 76,
+		pages: 90,
 		when: {
 			turning: function(e, page, view) {
 				
@@ -209,9 +209,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p75').addClass('fixed');
+					$('.sj-book .p89').addClass('fixed');
 				else
-					$('.sj-book .p75').removeClass('fixed');
+					$('.sj-book .p89').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					

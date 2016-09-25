@@ -1,19 +1,74 @@
-<div class="book-content">
-
-<p class="no-indent">
- digital pirates. It was quickly acknowledged as “the Walkman of the digital age”, as even Windows users either hacked it or
-moved to the Mac just so that they could use it.
-</p>
-
-<h2>The iTunes Music Store</h2>
-
-<p>
-
-<img class="left-pic zoom-this" src="samples/steve-jobs/pics/36.jpg" width="170" height="160">
-Once Apple had step foot in the music business with iPod, they started
-looking at content. At the time, most people either ripped their CDs on their Macs or downloaded music illegally on peer-to-peer networks.
-Recognizing they were in a unique position to do so, Apple decided to try and come up with a legal solution by building an online music store. They
-had enough experience to do so thanks to their own popular online store on apple.com,
-</p>
+<div style="border-bottom:1px dashed;border-left:1px dashed; border-bottom-left-radius:2em;border-radius: 50%; width:150px; height:150px;position: absolute;left: 385px;top: -75px; opacity:0.5">
+	<p style="word-wrap:break-word; width:40px; text-align:center; float:left; margin-top:79px; margin-left:30px;">Click & Drag</p>
+</div>
+<div class="book-content" style="border:2px dashed #000000">
+	<form action="php/submit.php" method="post">
+		<label for="firstName" id="firstName">First Name:</label>
+		<input type="text" name="firstName" class="firstName">
+		<br>
+		<br>
+		<label for="lastName" id="lastName">Last Name:</label>
+		<input type="text" name="lastName" class="lastName">
+		<br>
+		<br>
+		<label for="phoneNumber" id="phoneNumber">Phone Number:</label>
+		<input type="text" name="phoneNumber" class="phoneNumber">
+		<br>
+		<br>
+		<label for="email" id="email">Email:</label>
+		<input type="text" name="email" class="email">
+		<br>
+		<br>
+		<label for="eventType" id="eventType">Event Type:</label>
+		<select name="eventType" class="eventType">
+			<option value="wedding">Wedding</option>
+			<option value="birthday">Birthday</option>
+			<option value="Social Gathering">Social Gathering</option>
+			<option value="festival">Festival</option>
+			<option value="Corporate Function">Corporate Function</option>
+			<option value="other">Other</option>
+		</select>
+		<br>
+		<label for="numberPeople" id="numberPeople">Number of People:</label>
+		<select name="numberPeople" class="numberPeople">
+			<option value="0-25">0-25</option>
+			<option value="25-50">25-50</option>
+			<option value="50-100">50-100</option>
+			<option value="100-200">100-200</option>
+			<option value="200+">200+</option>
+		</select>
+		<br>
+		<label for="iceCreamTruck" id="iceCreamTruck">Include Ice Cream Truck:</label>
+		<select name="iceCreamTruck" class="iceCreamTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="lemonadeTrailer" id="lemonadeTrailer">Include Lemonade Trailer:</label>
+		<select name="lemonadeTrailer" class="lemonadeTrailer">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<label for="crepeTruck" id="crepeTruck">Include Crepe Truck:</label>
+		<select name="crepeTruck" class="crepeTruck">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<br>
+		<br>
+		<label for="location" id="location">Location:</label>
+		<input type="text" name="location" class="location">
+		<br>
+		<br>
+		<label for="date" id="date">Date:</label>
+		<input type="text" name="date" class="date">
+		<br>
+		<br>
+		<label for="time" id="time">Time:</label>
+		<input type="text" name="time" class="time">
+		<input type="submit" name="submit" value="Submit" style="width:100%;border-radius:25px;background-color:white;border:2px solid #083c5d;margin-top:13px">
+	</form>
 </div>
 <span class="page-number">83</span>
+<a href="#page/70" style="position:absolute; bottom:0px; right:80px; display:flex; width:initial; text-decoration:none; font-size:15px" class="page-number">About Us &rarr;</a>
