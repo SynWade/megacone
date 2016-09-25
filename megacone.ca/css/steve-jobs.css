@@ -43,7 +43,7 @@ body, ul, table, form{
 
 .sj-book h1{
 	font-family: "Stempel-Garamond-W01-Roman";
-	font-size: 38px;
+	font-size: 60px;
 	font-weight: lighter;
 	margin: 20px 0;
 	color: #333;
@@ -62,7 +62,7 @@ body, ul, table, form{
 
 .sj-book .book-content{
 	font-family: "Stempel-Garamond-W01-Roman";
-	font-size:16px;
+	font-size:21px;
 	margin:70px 40px;
 }
 
@@ -269,21 +269,21 @@ body, ul, table, form{
 }
 
 .sj-book .even{
-	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #F8ECC5), color-stop(1, #939393));
-	background-image:-webkit-linear-gradient(left, #F8ECC5 95%, #939393 100%);
-	background-image:-moz-linear-gradient(left, #F8ECC5 95%, #939393 100%);
-	background-image:-ms-linear-gradient(left, #F8ECC5 95%, #939393 100%);
-	background-image:-o-linear-gradient(left, #F8ECC5 95%, #939393 100%);
-	background-image:linear-gradient(left, #F8ECC5 95%, #939393 100%);
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #F8ECC5), color-stop(1, #676565));
+	background-image:-webkit-linear-gradient(left, #F8ECC5 95%, #676565  100%);
+	background-image:-moz-linear-gradient(left, #F8ECC5 95%, #676565 100%);
+	background-image:-ms-linear-gradient(left, #F8ECC5 95%, #676565 100%);
+	background-image:-o-linear-gradient(left, #F8ECC5 95%, #676565 100%);
+	background-image:linear-gradient(left, #F8ECC5 95%, #676565 100%);
 }
 
 .sj-book .odd{
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #F8ECC5), color-stop(1, #939393));
-	background-image:-webkit-linear-gradient(right, #F8ECC5 95%, #939393  100%);
-	background-image:-moz-linear-gradient(right, #F8ECC5 95%, #939393  100%);
-	background-image:-ms-linear-gradient(right, #F8ECC5 95%, #939393  100%);
-	background-image:-o-linear-gradient(right, #F8ECC5 95%, #939393  100%);
-	background-image:linear-gradient(right, #F8ECC5 95%, #939393  100%);
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #F8ECC5), color-stop(1, #676565));
+	background-image:-webkit-linear-gradient(right, #F8ECC5 95%, #676565  100%);
+	background-image:-moz-linear-gradient(right, #F8ECC5 95%, #676565  100%);
+	background-image:-ms-linear-gradient(right, #F8ECC5 95%, #676565  100%);
+	background-image:-o-linear-gradient(right, #F8ECC5 95%, #676565  100%);
+	background-image:linear-gradient(right, #F8ECC5 95%, #676565  100%);
 }
 
 .sj-book .loader{
@@ -324,6 +324,8 @@ body, ul, table, form{
 }
 
 .sj-book .table-contents a{
+	font-family: "Stempel-Garamond-W01-Roman";
+    font-size: 23px;
 	float:left;
 	width:100%;
 	clear:both;
@@ -334,6 +336,7 @@ body, ul, table, form{
 }
 
 .sj-book .table-contents a:hover{
+	font-size: 30px;
 	background:#CAD1EE;
 	float:left;
 	width:100%;
@@ -457,6 +460,16 @@ body, ul, table, form{
 .own-size.page.p32{
     background-color:#74B5BD;
 	}
+.own-size.page.p6, .own-size.page.p8, .own-size.page.p30, .own-size.page.p36 {
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #59B7E4), color-stop(1, #676565));
+	}
+.own-size.page.p7 {
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #59B7E4), color-stop(1, #676565));
+}
+
+.own-size.page.p6 .page-number, .own-size.page.p7 .page-number, .own-size.page.p8 .page-number, .own-size.page.p30 .page-number, .own-size.page.p36 .page-number {
+	color: #000;
+}
 	
 @font-face {
   font-family: 'chalkboard1';
