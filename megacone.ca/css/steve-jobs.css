@@ -448,16 +448,20 @@ body, ul, table, form{
 	margin-left:157px;
 }
 
-.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p27, .own-size.page.p29, .own-size.page.p31 {
+.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p29, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35 {
     background-image: url("../images/menu/background.jpg");
 }
-.own-size.page.p25{
+.own-size.page.p27{
     background-image: url("../images/menu/frappeBkgdSized.png");
 	}
 .own-size.page.p32{
     background-color:#74B5BD;
 	}
-	
+.own-size.page.p31{
+    background-image: url("../images/menu/parfaitbkgd.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	}
 @font-face {
   font-family: 'chalkboard1';
   font-style: normal;
