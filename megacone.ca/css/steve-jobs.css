@@ -166,8 +166,8 @@ body, ul, table, form{
 .sj-book .p1,
 .sj-book .p2,
 .sj-book .p3, 
-.sj-book .p89, 
-.sj-book .p90{
+.sj-book .p91, 
+.sj-book .p92{
 	background-color:white;
 	background-image:url(../images/book-covers.jpg) !important;
 }
@@ -236,11 +236,11 @@ body, ul, table, form{
 	background-position:-1920px 0 !important;
 }
 
-.sj-book .p89{
+.sj-book .p91{
 	background-position:-960px 0 !important;
 }
 
-.sj-book .p98{
+.sj-book .p92{
 	background-position:-1440px 0 !important;
 }
 
@@ -399,86 +399,71 @@ body, ul, table, form{
 							
 .firstName
 {
-	margin-left:115px;
+	margin-left:120px;
 }
 .lastName
 {
-	margin-left:118px;
+	margin-left:122px;
 }
 .phoneNumber
 {
-	margin-left:87px;
+	margin-left:100px;
 }
 .email
 {
-	margin-left:153px;
+	margin-left:159px;
 }
 .eventType
 {
-	margin-left:113px;
+	margin-left:121px;
 	width:173px;
 }
 .numberPeople
 {
-	margin-left:66px;
-	width:173px;
+	margin-left:76px;
 }
 .iceCreamTruck
 {
-	margin-left:22px;
+	margin-left:21px;
 	width:173px;
 }
 .lemonadeTrailer
 {
-	margin-left:16px;
+	margin-left:22px;
 	width:173px;
 }
 .crepeTruck
 {
-	margin-left:51px;
+	margin-left:56px;
 	width:173px;
 }
 .location
 {
-	margin-left:132px;
+	margin-left:135px;
 }
 .date
 {
-	margin-left:160px;
+	margin-left:163px;
 }
 .time
 {
-	margin-left:157px;
+	margin-left:163px;
 }
 
-.own-size.page.p9, .own-size.page.p11, .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p29, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35 {
+.own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37, .own-size.page.p39 {
     background-image: url("../images/menu/background.jpg");
 }
-.own-size.page.p27{
+
+.own-size.page.p29{
     background-image: url("../images/menu/frappeBkgdSized.png");
 	}
-.own-size.page.p32{
-    background-color:#74B5BD;
-	}
 
-.own-size.page.p31{
+.own-size.page.p33{
     background-image: url("../images/menu/parfaitbkgd.png");
 	background-repeat: no-repeat;
     background-size: cover;
 	}
 
-.own-size.page.p6, .own-size.page.p8, .own-size.page.p30, .own-size.page.p36 {
-	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #59B7E4), color-stop(1, #676565));
-	}
-.own-size.page.p7 {
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #59B7E4), color-stop(1, #676565));
-}
-
-.own-size.page.p6 .page-number, .own-size.page.p7 .page-number, .own-size.page.p8 .page-number, .own-size.page.p30 .page-number, .own-size.page.p36 .page-number {
-	color: #000;
-}
-	
-ExtrasDipsLemonade
 @font-face {
   font-family: 'chalkboard1';
   font-style: normal;
