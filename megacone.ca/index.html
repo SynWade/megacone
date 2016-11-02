@@ -13,7 +13,10 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
 </head>
 <body style="background-image: url('images/table.jpg'); background-repeat:no-repeat; background-size:100%;">
-
+<!--
+<div style="background-color:red;width:100px;height:100px">
+</div>
+-->
 <div id="canvas">
 	<div id="book-zoom">
 		<div class="sj-book">
@@ -21,8 +24,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p89"> <div class="depth"></div> </div>
-			<div class="hard p90"></div>
+			<div class="hard fixed back-side p91"> <div class="depth"></div> </div>
+			<div class="hard p92"></div>
 		</div>
 	</div>
 	<!--
@@ -170,7 +173,7 @@ function loadApp() {
 		autoCenter: true,
 		gradients: true,
 		duration: 1000,
-		pages: 90,
+		pages: 92,
 		when: {
 			turning: function(e, page, view) {
 				
@@ -209,9 +212,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p89').addClass('fixed');
+					$('.sj-book .p91').addClass('fixed');
 				else
-					$('.sj-book .p89').removeClass('fixed');
+					$('.sj-book .p91').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					
