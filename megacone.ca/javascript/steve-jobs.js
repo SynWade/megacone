@@ -26,6 +26,332 @@ function updateDepth(book, newPage) {
 	else
 		$('.sj-book .p91 .depth').css({width: 0});
 
+/***************************Tabs Visual Manipulation**************************************/
+	//Contents Tab - pages: 4-5
+	if (newPage<4)
+	{
+		$('#tabLeft1').css({
+			display: "none"
+		});
+		$('#tabRight1').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=4 && newPage<=5)
+	{
+		$('#tabLeft1').css({
+			display: "none"
+		});
+		$('#tabRight1').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft1').css({
+			display: "block"
+		});
+		$('#tabRight1').css({
+			display: "none"
+		});
+	}
+	
+	//About Us Tab - pages: 6-7
+	if (newPage<6)
+	{
+		$('#tabLeft2').css({
+			display: "none"
+		});
+		$('#tabRight2').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=6 && newPage<=7)
+	{
+		$('#tabLeft2').css({
+			display: "none"
+		});
+		$('#tabRight2').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft2').css({
+			display: "block"
+		});
+		$('#tabRight2').css({
+			display: "none"
+		});
+	}
+	
+	//Menu Tab - pages: 8-9
+	if (newPage<8)
+	{
+		$('#tabLeft3').css({
+			display: "none"
+		});
+		$('#tabRight3').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=8 && newPage<=9)
+	{
+		$('#tabLeft3').css({
+			display: "none"
+		});
+		$('#tabRight3').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft3').css({
+			display: "block"
+		});
+		$('#tabRight3').css({
+			display: "none"
+		});
+	}
+	
+	//Corporate Menu Tab - pages: 10-11
+	if (newPage<10)
+	{
+		$('#tabLeft4').css({
+			display: "none"
+		});
+		$('#tabRight4').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=10 && newPage<=11)
+	{
+		$('#tabLeft4').css({
+			display: "none"
+		});
+		$('#tabRight4').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft4').css({
+			display: "block"
+		});
+		$('#tabRight4').css({
+			display: "none"
+		});
+	}
+	
+	//Ice Cream Menu Tab - pages: 12-37
+	if (newPage<12)
+	{
+		$('#tabLeft5').css({
+			display: "none"
+		});
+		$('#tabRight5').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=12 && newPage<=37)
+	{
+		$('#tabLeft5').css({
+			display: "none"
+		});
+		$('#tabRight5').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft5').css({
+			display: "block"
+		});
+		$('#tabRight5').css({
+			display: "none"
+		});
+	}
+		
+	//Ice Cream Menu Tab - pages: 38-39
+	if (newPage<38)
+	{
+		$('#tabLeft6').css({
+			display: "none"
+		});
+		$('#tabRight6').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=38 && newPage<=39)
+	{
+		$('#tabLeft6').css({
+			display: "none"
+		});
+		$('#tabRight6').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft6').css({
+			display: "block"
+		});
+		$('#tabRight6').css({
+			display: "none"
+		});
+	}
+	
+	//Gallery Tab - pages: 38-39
+	if (newPage<40)
+	{
+		$('#tabLeft7').css({
+			display: "none"
+		});
+		$('#tabRight7').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=40 && newPage<=85)
+	{
+		$('#tabLeft7').css({
+			display: "none"
+		});
+		$('#tabRight7').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft7').css({
+			display: "block"
+		});
+		$('#tabRight7').css({
+			display: "none"
+		});
+	}
+		
+	//Events Tab - pages: 86-87
+	if (newPage<86)
+	{
+		$('#tabLeft8').css({
+			display: "none"
+		});
+		$('#tabRight8').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=86 && newPage<=87)
+	{
+		$('#tabLeft8').css({
+			display: "none"
+		});
+		$('#tabRight8').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft8').css({
+			display: "block"
+		});
+		$('#tabRight8').css({
+			display: "none"
+		});
+	}
+			
+	//Connect With Us Tab - pages: 88-89
+	if (newPage<88)
+	{
+		$('#tabLeft9').css({
+			display: "none"
+		});
+		$('#tabRight9').css({
+			display: "block"
+		});
+	}
+	else if (newPage>=88 && newPage<=89)
+	{
+		$('#tabLeft9').css({
+			display: "none"
+		});
+		$('#tabRight9').css({
+			display: "none"
+		});
+	}
+	else
+	{
+		$('#tabLeft9').css({
+			display: "block"
+		});
+		$('#tabRight9').css({
+			display: "none"
+		});
+	}
+	
+	//Front Page
+	if (newPage<2)
+	{
+		$('#tabLeft1').css({
+			display: "none"
+		});
+		$('#tabLeft2').css({
+			display: "none"
+		});
+		$('#tabLeft3').css({
+			display: "none"
+		});
+		$('#tabLeft4').css({
+			display: "none"
+		});
+		$('#tabLeft5').css({
+			display: "none"
+		});
+		$('#tabLeft6').css({
+			display: "none"
+		});
+		$('#tabLeft7').css({
+			display: "none"
+		});
+		$('#tabLeft8').css({
+			display: "none"
+		});
+		$('#tabLeft9').css({
+			display: "none"
+		});
+		$('#tabLeft10').css({
+			display: "none"
+		});
+		$('#tabRight1').css({
+			display: "none"
+		});
+		$('#tabRight2').css({
+			display: "none"
+		});
+		$('#tabRight3').css({
+			display: "none"
+		});
+		$('#tabRight4').css({
+			display: "none"
+		});
+		$('#tabRight5').css({
+			display: "none"
+		});
+		$('#tabRight6').css({
+			display: "none"
+		});
+		$('#tabRight7').css({
+			display: "none"
+		});
+		$('#tabRight8').css({
+			display: "none"
+		});
+		$('#tabRight9').css({
+			display: "none"
+		});
+		$('#tabRight10').css({
+			display: "none"
+		});
+	}
 }
 
 function loadPage(page) {
@@ -235,57 +561,3 @@ function isChrome() {
 	return navigator.userAgent.indexOf('Chrome')!=-1;
 
 }
-
-//Bubble Animation
-$(".bubble").click(function() {
-    $(this).stop(true, false);
-    $(this).hide("explode", {
-        pieces: 50
-    }, 250);
-});
-
-function animate1(bubble) {
-    $(bubble).animate({
-        "-moz-border-radius": "110px/100px",
-        "-webkit-border-radius": "110px 100px",
-        "border-radius": "110px/100px",
-        height: '100px',
-        width: '110px',
-    }, 1500, animate2(bubble));
-}
-
-function animate2(bubble) {
-    $(bubble).animate({
-        "-moz-border-radius": "100px/110px",
-        "-webkit-border-radius": "100px 110px",
-        "border-radius": "100px/110px",
-        height: '110px',
-        width: '100px',
-    }, 1500, function() {
-        $(bubble).trigger('mouseover');
-    });
-}
-
-$("#bubble1").mouseover(function() {
-    animate1(document.getElementById("bubble1"));
-});
-
-$("#bubble1").mouseout(function() {
-    $(document.getElementById("bubble1")).stop(true, false);
-});
-
-$("#bubble2").mouseover(function() {
-    animate1(document.getElementById("bubble2"));
-});
-
-$("#bubble2").mouseout(function() {
-    $(document.getElementById("bubble2")).stop(true, false);
-});
-
-$("#bubble3").mouseover(function() {
-    animate1(document.getElementById("bubble3"));
-});
-
-$("#bubble3").mouseout(function() {
-    $(document.getElementById("bubble3")).stop(true, false);
-});

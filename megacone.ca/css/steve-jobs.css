@@ -469,3 +469,54 @@ body, ul, table, form{
   font-style: normal;
   src: url('../fonts/EraserRegular.ttf');
 }
+
+.bookTab {
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+}
+
+#bookTab1:hover {
+	z-index: 101;
+}
+
+#bookTab2:hover {
+	z-index: 101;
+}
+
+#bookTab3:hover {
+	z-index: 101;
+}
+
+#bookTab4:hover {
+	z-index: 101;
+}
+
+#bookTab5:hover {
+	z-index: 101;
+}
+
+#bookTab6:hover {
+	z-index: 101;
+}
+
+#bookTab7:hover {
+	z-index: 101;
+}
+
+#bookTab8:hover {
+	z-index: 101;
+}
+
+#bookTab9:hover {
+	z-index: 101;
+}
+
+#bookTab10:hover {
+	z-index: 101;
+}
+
+#bookTab11:hover {
+	z-index: 101;
+}
