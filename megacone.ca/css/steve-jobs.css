@@ -468,6 +468,21 @@ body, ul, table, form{
     background-image: url("../images/menu/gbRTSF.png");
 	background-repeat: no-repeat;
 	}
+
+.own-size.page.p44, .own-size.page.p48, .own-size.page.p52, .own-size.page.p54, .own-size.page.p56, .own-size.page.p58, .own-size.page.p60, .own-size.page.p62, .own-size.page.p64, .own-size.page.p66, .own-size.page.p70, .own-size.page.p72, .own-size.page.p74, .own-size.page.p76, .own-size.page.p78, .own-size.page.p80, .own-size.page.p82, .own-size.page.p84 {
+    background-image: url("../images/menu/gbLTSF.png");
+	background-repeat: no-repeat;
+	}
+
+.own-size.page.p6, .own-size.page.p8, .own-size.page.p10, .own-size.page.p12, .own-size.page.p14, .own-size.page.p16, .own-size.page.p18, .own-size.page.p20, .own-size.page.p22, .own-size.page.p24, .own-size.page.p26, .own-size.page.p28, .own-size.page.p30, .own-size.page.p32, .own-size.page.p34, .own-size.page.p36, .own-size.page.p38, .own-size.page.p40, .own-size.page.p42, .own-size.page.p46, .own-size.page.p50, .own-size.page.p68, .own-size.page.p86, .own-size.page.p88, .own-size.page.p90 {
+    background-image: url("../images/menu/LPYS.png");
+	background-repeat: no-repeat;
+	}
+	
+.own-size.page.p5, .own-size.page.p7, .own-size.page.p9, .own-size.page.p51, .own-size.page.p53, .own-size.page.p79, .own-size.page.p85, .own-size.page.p87, .own-size.page.p89 {
+    background-image: url("../images/menu/RPYS.png");
+	background-repeat: no-repeat;
+}
 	
 @font-face {
   font-family: 'chalkboard1';
