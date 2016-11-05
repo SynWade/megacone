@@ -451,15 +451,15 @@ body, ul, table, form{
 }
 
 .own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37, .own-size.page.p39 {
-    background-image: url("../images/menu/background.jpg");
+    background-image: url("../images/menu/bbLp39.png");
 }
 
 .own-size.page.p29{
-    background-image: url("../images/menu/frappeBkgdSized.png");
+    background-image: url("../images/menu/frappeSplat.png");
 	}
 
 .own-size.page.p33{
-    background-image: url("../images/menu/parfaitbkgd.png");
+    background-image: url("../images/menu/parfaitSplat.png");
 	background-repeat: no-repeat;
     background-size: cover;
 	}
