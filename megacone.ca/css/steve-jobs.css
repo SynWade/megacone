@@ -464,6 +464,11 @@ body, ul, table, form{
     background-size: cover;
 	}
 
+.own-size.page.p41, .own-size.page.p43, .own-size.page.p45, .own-size.page.p47, .own-size.page.p49, .own-size.page.p55, .own-size.page.p57, .own-size.page.p59, .own-size.page.p61, .own-size.page.p63, .own-size.page.p65, .own-size.page.p67, .own-size.page.p69, .own-size.page.p71, .own-size.page.p73, .own-size.page.p75, .own-size.page.p77, .own-size.page.p81, .own-size.page.p83 {
+    background-image: url("../images/menu/gbRTSF.png");
+	background-repeat: no-repeat;
+	}
+	
 @font-face {
   font-family: 'chalkboard1';
   font-style: normal;
