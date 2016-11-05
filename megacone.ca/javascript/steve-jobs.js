@@ -27,9 +27,56 @@ function updateDepth(book, newPage) {
 		$('.sj-book .p91 .depth').css({width: 0});
 
 /***************************Tabs Visual Manipulation**************************************/
+
+	$('#tabLeft10').css({
+		display: "none"
+	});
+	$('#tabRight10').css({
+		display: "block"
+	});
+	$('#tabLeft11').css({
+		display: "none"
+	});
+	$('#tabRight11').css({
+		display: "block"
+	});
+	
 	//Contents Tab - pages: 4-5
 	if (newPage<4)
 	{
+		$('#tabRight1').css({
+			marginTop: "9px"
+		});
+		$('#tabRight2').css({
+			marginTop: "57.2px"
+		});
+		$('#tabRight3').css({
+			marginTop: "105.4px"
+		});
+		$('#tabRight4').css({
+			marginTop: "153.6px"
+		});
+		$('#tabRight5').css({
+			marginTop: "201.8px"
+		});
+		$('#tabRight6').css({
+			marginTop: "250px"
+		});
+		$('#tabRight7').css({
+			marginTop: "298.2px"
+		});
+		$('#tabRight8').css({
+			marginTop: "346.4px"
+		});
+		$('#tabRight9').css({
+			marginTop: "394.6px"
+		});
+		$('#tabRight10').css({
+			marginTop: "442.8px"
+		});
+		$('#tabRight11').css({
+			marginTop: "491px"
+		});
 		$('#tabLeft1').css({
 			display: "none"
 		});
@@ -39,6 +86,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=4 && newPage<=5)
 	{
+		$('#tabRight2').css({
+			marginTop: "9px"
+		});
+		$('#tabRight3').css({
+			marginTop: "62.6px"
+		});
+		$('#tabRight4').css({
+			marginTop: "116.1px"
+		});
+		$('#tabRight5').css({
+			marginTop: "169.7px"
+		});
+		$('#tabRight6').css({
+			marginTop: "223.2px"
+		});
+		$('#tabRight7').css({
+			marginTop: "276.8px"
+		});
+		$('#tabRight8').css({
+			marginTop: "330.3px"
+		});
+		$('#tabRight9').css({
+			marginTop: "383.9px"
+		});
+		$('#tabRight10').css({
+			marginTop: "437.4px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "491px"
+		});
 		$('#tabLeft1').css({
 			display: "none"
 		});
@@ -68,6 +146,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=6 && newPage<=7)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabRight3').css({
+			marginTop: "9px"
+		});
+		$('#tabRight4').css({
+			marginTop: "69.3px"
+		});
+		$('#tabRight5').css({
+			marginTop: "129.5px"
+		});
+		$('#tabRight6').css({
+			marginTop: "189.8px"
+		});
+		$('#tabRight7').css({
+			marginTop: "250px"
+		});
+		$('#tabRight8').css({
+			marginTop: "310.3px"
+		});
+		$('#tabRight9').css({
+			marginTop: "370.5px"
+		});
+		$('#tabRight10').css({
+			marginTop: "430.8px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "491px"
+		});
 		$('#tabLeft2').css({
 			display: "none"
 		});
@@ -97,6 +206,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=8 && newPage<=9)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "109px"
+		});
+		$('#tabRight4').css({
+			marginTop: "9px"
+		});
+		$('#tabRight5').css({
+			marginTop: "77.9px"
+		});
+		$('#tabRight6').css({
+			marginTop: "146.7px"
+		});
+		$('#tabRight7').css({
+			marginTop: "215.6px"
+		});
+		$('#tabRight8').css({
+			marginTop: "284.4px"
+		});
+		$('#tabRight9').css({
+			marginTop: "353.3px"
+		});
+		$('#tabRight10').css({
+			marginTop: "422.1px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "491px"
+		});
 		$('#tabLeft3').css({
 			display: "none"
 		});
@@ -126,6 +266,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=10 && newPage<=11)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "109px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "209px"
+		});
+		$('#tabRight5').css({
+			marginTop: "9px"
+		});
+		$('#tabRight6').css({
+			marginTop: "89.3px"
+		});
+		$('#tabRight7').css({
+			marginTop: "169.7px"
+		});
+		$('#tabRight8').css({
+			marginTop: "250px"
+		});
+		$('#tabRight9').css({
+			marginTop: "330.3px"
+		});
+		$('#tabRight10').css({
+			marginTop: "410.7px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "491px"
+		});
 		$('#tabLeft4').css({
 			display: "none"
 		});
@@ -155,6 +326,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=12 && newPage<=37)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "109px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "209px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "309px"
+		});
+		$('#tabRight6').css({
+			marginTop: "9px"
+		});
+		$('#tabRight7').css({
+			marginTop: "105.4px"
+		});
+		$('#tabRight8').css({
+			marginTop: "201.8px"
+		});
+		$('#tabRight9').css({
+			marginTop: "298.2px"
+		});
+		$('#tabRight10').css({
+			marginTop: "394.6px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "491px"
+		});
 		$('#tabLeft5').css({
 			display: "none"
 		});
@@ -184,6 +386,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=38 && newPage<=39)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "109px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "209px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "309px"
+		});
+		$('#tabLeft5').css({
+			marginTop: "409px"
+		});
+		$('#tabRight7').css({
+			marginTop: "9px"
+		});
+		$('#tabRight8').css({
+			marginTop: "109px"
+		});
+		$('#tabRight9').css({
+			marginTop: "209px"
+		});
+		$('#tabRight10').css({
+			marginTop: "309px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "409px"
+		});
 		$('#tabLeft6').css({
 			display: "none"
 		});
@@ -213,6 +446,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=40 && newPage<=85)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "105.4px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "201.8px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "298.2px"
+		});
+		$('#tabLeft5').css({
+			marginTop: "394.6px"
+		});
+		$('#tabLeft6').css({
+			marginTop: "491px"
+		});
+		$('#tabRight8').css({
+			marginTop: "9px"
+		});
+		$('#tabRight9').css({
+			marginTop: "109px"
+		});
+		$('#tabRight10').css({
+			marginTop: "209px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "309px"
+		});
 		$('#tabLeft7').css({
 			display: "none"
 		});
@@ -242,6 +506,37 @@ function updateDepth(book, newPage) {
 	}
 	else if (newPage>=86 && newPage<=87)
 	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "89.3px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "169.7px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "250px"
+		});
+		$('#tabLeft5').css({
+			marginTop: "330.3px"
+		});
+		$('#tabLeft6').css({
+			marginTop: "410.7px"
+		});
+		$('#tabLeft7').css({
+			marginTop: "491px"
+		});
+		$('#tabRight9').css({
+			marginTop: "9px"
+		});
+		$('#tabRight10').css({
+			marginTop: "109px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "209px"
+		});
 		$('#tabLeft8').css({
 			display: "none"
 		});
@@ -270,7 +565,38 @@ function updateDepth(book, newPage) {
 		});
 	}
 	else if (newPage>=88 && newPage<=89)
-	{
+	{		
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "77.9px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "146.7px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "215.6px"
+		});
+		$('#tabLeft5').css({
+			marginTop: "284.4px"
+		});
+		$('#tabLeft6').css({
+			marginTop: "353.3px"
+		});
+		$('#tabLeft7').css({
+			marginTop: "422.1px"
+		});
+		$('#tabLeft8').css({
+			marginTop: "491px"
+		});
+		$('#tabRight10').css({
+			marginTop: "9px"
+		});
+		$('#tabRight11').css({
+
+			marginTop: "109px"
+		});
 		$('#tabLeft9').css({
 			display: "none"
 		});
@@ -321,6 +647,9 @@ function updateDepth(book, newPage) {
 		$('#tabLeft10').css({
 			display: "none"
 		});
+		$('#tabLeft11').css({
+			display: "none"
+		});
 		$('#tabRight1').css({
 			display: "none"
 		});
@@ -351,7 +680,129 @@ function updateDepth(book, newPage) {
 		$('#tabRight10').css({
 			display: "none"
 		});
+		$('#tabRight11').css({
+			display: "none"
+		});
 	}
+	
+	
+	//End Page
+	if (newPage>=90 && newPage<=91)
+	{
+		$('#tabLeft1').css({
+			marginTop: "9px"
+		});
+		$('#tabLeft2').css({
+			marginTop: "57.2px"
+		});
+		$('#tabLeft3').css({
+			marginTop: "105.4px"
+		});
+		$('#tabLeft4').css({
+			marginTop: "153.6px"
+		});
+		$('#tabLeft5').css({
+			marginTop: "201.8px"
+		});
+		$('#tabLeft6').css({
+			marginTop: "250px"
+		});
+		$('#tabLeft7').css({
+			marginTop: "298.2px"
+		});
+		$('#tabLeft8').css({
+			marginTop: "346.4px"
+		});
+		$('#tabLeft9').css({
+			marginTop: "394.6px"
+		});
+		$('#tabLeft10').css({
+			display: "block",
+			marginTop: "442.8px"
+		});
+		$('#tabRight10').css({
+			display: "none"
+		});
+		$('#tabLeft11').css({
+			display: "block",
+			marginTop: "491px"
+		});
+		$('#tabRight11').css({
+			display: "none"
+		});
+	}
+	
+	
+	//Back Page
+	if (newPage>91)
+	{
+		$('#tabLeft1').css({
+			display: "none"
+		});
+		$('#tabLeft2').css({
+			display: "none"
+		});
+		$('#tabLeft3').css({
+			display: "none"
+		});
+		$('#tabLeft4').css({
+			display: "none"
+		});
+		$('#tabLeft5').css({
+			display: "none"
+		});
+		$('#tabLeft6').css({
+			display: "none"
+		});
+		$('#tabLeft7').css({
+			display: "none"
+		});
+		$('#tabLeft8').css({
+			display: "none"
+		});
+		$('#tabLeft9').css({
+			display: "none"
+		});
+		$('#tabLeft10').css({
+			display: "none"
+		});
+		$('#tabLeft11').css({
+			display: "none"
+		});
+		$('#tabRight1').css({
+			display: "none"
+		});
+		$('#tabRight2').css({
+			display: "none"
+		});
+		$('#tabRight3').css({
+			display: "none"
+		});
+		$('#tabRight4').css({
+			display: "none"
+		});
+		$('#tabRight5').css({
+			display: "none"
+		});
+		$('#tabRight6').css({
+			display: "none"
+		});
+		$('#tabRight7').css({
+			display: "none"
+		});
+		$('#tabRight8').css({
+			display: "none"
+		});
+		$('#tabRight9').css({
+			display: "none"
+		});
+		$('#tabRight10').css({
+			display: "none"
+		});
+		$('#tabRight11').css({
+			display: "none"
+		});
+	}	
 }
 
 function loadPage(page) {

@@ -18,5 +18,5 @@
 	$message = wordwrap($message, 70);
     // send mail
     mail('megacone4@gmail.com',$subject,$message);
-    header("Location: ../thanks.php");
+    header("Location: ../#page/87");
 ?>
