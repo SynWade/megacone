@@ -449,23 +449,27 @@ body, ul, table, form{
 {
 	margin-left:163px;
 }
-
-.own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37, .own-size.page.p39 {
-    background-image: url("../images/menu/bbLp39.png");
+	
+.own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37 {
+    background-image: url("../images/menu/bbLBlueR.png");
 }
 
+.own-size.page.p39 {
+	background-image: url("../images/menu/bbLYllwR.png");
+	}
+
 .own-size.page.p29{
-    background-image: url("../images/menu/frappeSplat.png");
+    background-image: url("../images/menu/frappeBs.png");
 	}
 
 .own-size.page.p33{
-    background-image: url("../images/menu/parfaitSplat.png");
+    background-image: url("../images/menu/parfaitBs.png");
 	background-repeat: no-repeat;
     background-size: cover;
 	}
 
 .own-size.page.p41, .own-size.page.p43, .own-size.page.p45, .own-size.page.p47, .own-size.page.p49, .own-size.page.p55, .own-size.page.p57, .own-size.page.p59, .own-size.page.p61, .own-size.page.p63, .own-size.page.p65, .own-size.page.p67, .own-size.page.p69, .own-size.page.p71, .own-size.page.p73, .own-size.page.p75, .own-size.page.p77, .own-size.page.p81, .own-size.page.p83 {
-    background-image: url("../images/menu/gbRTSF.png");
+    background-image: url("../images/menu/gbRTSFP.png");
 	background-repeat: no-repeat;
 	}
 
@@ -473,16 +477,69 @@ body, ul, table, form{
     background-image: url("../images/menu/gbLTSF.png");
 	background-repeat: no-repeat;
 	}
+	
+.own-size.page.p7, .own-size.page.p51, .own-size.page.p53, .own-size.page.p79, .own-size.page.p85 {
+    background-image: url("../images/menu/RpPs.png");
+	background-repeat: no-repeat;
+}
 
-.own-size.page.p6, .own-size.page.p8, .own-size.page.p10, .own-size.page.p12, .own-size.page.p14, .own-size.page.p16, .own-size.page.p18, .own-size.page.p20, .own-size.page.p22, .own-size.page.p24, .own-size.page.p26, .own-size.page.p28, .own-size.page.p30, .own-size.page.p32, .own-size.page.p34, .own-size.page.p36, .own-size.page.p38, .own-size.page.p40, .own-size.page.p42, .own-size.page.p46, .own-size.page.p50, .own-size.page.p68, .own-size.page.p86, .own-size.page.p88, .own-size.page.p90 {
-    background-image: url("../images/menu/LPYS.png");
+.own-size.page.p5 {
+    background-image: url("../images/menu/RpTs.png");
+	}
+	
+.own-size.page.p6 {
+    background-image: url("../images/menu/LPGS.png");
+	}
+	
+.own-size.page.p7 {
+    background-image: url("../images/menu/RpGs.png");
+	}
+	
+.own-size.page.p8 {
+    background-image: url("../images/menu/LPRS.png");
+	}
+
+.own-size.page.p9 {
+    background-image: url("../images/menu/RpBs.png");
+	}
+
+.own-size.page.p10 {
+    background-image: url("../images/menu/LPBlkS.png");
+	}
+
+.own-size.page.p12, .own-size.page.p14, .own-size.page.p16, .own-size.page.p18, .own-size.page.p20, .own-size.page.p22, .own-size.page.p24, .own-size.page.p26, .own-size.page.p28, .own-size.page.p30, .own-size.page.p32, .own-size.page.p34, .own-size.page.p36 {
+    background-image: url("../images/menu/LPBS.png");
 	background-repeat: no-repeat;
 	}
 	
-.own-size.page.p5, .own-size.page.p7, .own-size.page.p9, .own-size.page.p51, .own-size.page.p53, .own-size.page.p79, .own-size.page.p85, .own-size.page.p87, .own-size.page.p89 {
-    background-image: url("../images/menu/RPYS.png");
+.own-size.page.p38 {
+	background-image: url("../images/menu/LPYllwS.png");
+	}
+
+.own-size.page.p40, .own-size.page.p42, .own-size.page.p46, .own-size.page.p50, .own-size.page.p68 {
+	background-image: url("../images/menu/LPPS.png");
+	}
+	
+.own-size.page.p90 {
+	background-image: url("../images/menu/LPYS.png");
+	}
+	
+.own-size.page.p86 {
+    background-image: url("../images/menu/LPOS.png");
+	}
+	
+.own-size.page.p87 {
+    background-image: url("../images/menu/RpOs.png");
+	}
+
+.own-size.page.p88 {
+    background-image: url("../images/menu/LPBrwnS.png");
+	}
+	
+.own-size.page.p89 {
+    background-image: url("../images/menu/RpBrwnS.png");
 	background-repeat: no-repeat;
-}
+	}
 	
 @font-face {
   font-family: 'chalkboard1';
