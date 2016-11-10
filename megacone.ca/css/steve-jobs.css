@@ -488,46 +488,90 @@ body, ul, table, form{
     z-index: 100;
 }
 
-#bookTab1:hover {
+#tabLeft1:hover {
 	z-index: 101;
 }
 
-#bookTab2:hover {
+#tabLeft2:hover {
 	z-index: 101;
 }
 
-#bookTab3:hover {
+#tabLeft3:hover {
 	z-index: 101;
 }
 
-#bookTab4:hover {
+#tabLeft4:hover {
 	z-index: 101;
 }
 
-#bookTab5:hover {
+#tabLeft5:hover {
 	z-index: 101;
 }
 
-#bookTab6:hover {
+#tabLeft6:hover {
 	z-index: 101;
 }
 
-#bookTab7:hover {
+#tabLeft7:hover {
 	z-index: 101;
 }
 
-#bookTab8:hover {
+#tabLeft8:hover {
 	z-index: 101;
 }
 
-#bookTab9:hover {
+#tabLeft9:hover {
 	z-index: 101;
 }
 
-#bookTab10:hover {
+#tabLeft10:hover {
 	z-index: 101;
 }
 
-#bookTab11:hover {
+#tabLeft11:hover {
+	z-index: 101;
+}
+
+#tabRight1:hover {
+	z-index: 101;
+}
+
+#tabRight2:hover {
+	z-index: 101;
+}
+
+#tabRight3:hover {
+	z-index: 101;
+}
+
+#tabRight4:hover {
+	z-index: 101;
+}
+
+#tabRight5:hover {
+	z-index: 101;
+}
+
+#tabRight6:hover {
+	z-index: 101;
+}
+
+#tabRight7:hover {
+	z-index: 101;
+}
+
+#tabRight8:hover {
+	z-index: 101;
+}
+
+#tabRight9:hover {
+	z-index: 101;
+}
+
+#tabRight10:hover {
+	z-index: 101;
+}
+
+#tabRight11:hover {
 	z-index: 101;
 }
