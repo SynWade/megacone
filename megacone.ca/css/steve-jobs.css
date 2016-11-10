@@ -450,26 +450,22 @@ body, ul, table, form{
 	margin-left:163px;
 }
 	
-.own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37 {
-    background-image: url("../images/menu/bbLBlueR.png");
+.own-size.page.p13, .own-size.page.p15, .own-size.page.p17, .own-size.page.p19, .own-size.page.p21, .own-size.page.p23, .own-size.page.p25, .own-size.page.p27, .own-size.page.p31, .own-size.page.p33, .own-size.page.p35, .own-size.page.p37, .own-size.page.p39 {
+    background-image: url("../images/menu/background.png");
 }
 
-.own-size.page.p39 {
-	background-image: url("../images/menu/bbLYllwR.png");
-	}
-
 .own-size.page.p29{
-    background-image: url("../images/menu/frappeBs.png");
+    background-image: url("../images/menu/frappeBkgdSized.png");
 	}
 
 .own-size.page.p33{
-    background-image: url("../images/menu/parfaitBs.png");
+    background-image: url("../images/menu/parfaitbkgd.png");
 	background-repeat: no-repeat;
     background-size: cover;
 	}
 
 .own-size.page.p41, .own-size.page.p43, .own-size.page.p45, .own-size.page.p47, .own-size.page.p49, .own-size.page.p55, .own-size.page.p57, .own-size.page.p59, .own-size.page.p61, .own-size.page.p63, .own-size.page.p65, .own-size.page.p67, .own-size.page.p69, .own-size.page.p71, .own-size.page.p73, .own-size.page.p75, .own-size.page.p77, .own-size.page.p81, .own-size.page.p83 {
-    background-image: url("../images/menu/gbRTSFP.png");
+    background-image: url("../images/menu/galleryRight.png");
 	background-repeat: no-repeat;
 	}
 
@@ -477,44 +473,7 @@ body, ul, table, form{
     background-image: url("../images/menu/galleryLeft.png");
 	background-repeat: no-repeat;
 	}
-	
-.own-size.page.p7, .own-size.page.p51, .own-size.page.p53, .own-size.page.p79, .own-size.page.p85 {
-    background-image: url("../images/menu/RpPs.png");
-	background-repeat: no-repeat;
-}
 
-.own-size.page.p5 {
-    background-image: url("../images/menu/RpTs.png");
-	}
-	
-.own-size.page.p7 {
-    background-image: url("../images/menu/RpGs.png");
-	}
-
-.own-size.page.p9 {
-    background-image: url("../images/menu/RpBs.png");
-	}
-	
-.own-size.page.p90 {
-	background-image: url("../images/menu/LPYS.png");
-	}
-	
-.own-size.page.p86 {
-    background-image: url("../images/menu/LPOS.png");
-	}
-	
-.own-size.page.p87 {
-    background-image: url("../images/menu/RpOs.png");
-	}
-
-.own-size.page.p88 {
-    background-image: url("../images/menu/LPBrwnS.png");
-	}
-	
-.own-size.page.p89 {
-    background-image: url("../images/menu/RpBrwnS.png");
-	background-repeat: no-repeat;
-	}
 	
 @font-face {
   font-family: 'chalkboard1';
@@ -529,90 +488,46 @@ body, ul, table, form{
     z-index: 100;
 }
 
-#tabLeft1:hover {
+#bookTab1:hover {
 	z-index: 101;
 }
 
-#tabLeft2:hover {
+#bookTab2:hover {
 	z-index: 101;
 }
 
-#tabLeft3:hover {
+#bookTab3:hover {
 	z-index: 101;
 }
 
-#tabLeft4:hover {
+#bookTab4:hover {
 	z-index: 101;
 }
 
-#tabLeft5:hover {
+#bookTab5:hover {
 	z-index: 101;
 }
 
-#tabLeft6:hover {
+#bookTab6:hover {
 	z-index: 101;
 }
 
-#tabLeft7:hover {
+#bookTab7:hover {
 	z-index: 101;
 }
 
-#tabLeft8:hover {
+#bookTab8:hover {
 	z-index: 101;
 }
 
-#tabLeft9:hover {
+#bookTab9:hover {
 	z-index: 101;
 }
 
-#tabLeft10:hover {
+#bookTab10:hover {
 	z-index: 101;
 }
 
-#tabLeft11:hover {
-	z-index: 101;
-}
-
-#tabRight1:hover {
-	z-index: 101;
-}
-
-#tabRight2:hover {
-	z-index: 101;
-}
-
-#tabRight3:hover {
-	z-index: 101;
-}
-
-#tabRight4:hover {
-	z-index: 101;
-}
-
-#tabRight5:hover {
-	z-index: 101;
-}
-
-#tabRight6:hover {
-	z-index: 101;
-}
-
-#tabRight7:hover {
-	z-index: 101;
-}
-
-#tabRight8:hover {
-	z-index: 101;
-}
-
-#tabRight9:hover {
-	z-index: 101;
-}
-
-#tabRight10:hover {
-	z-index: 101;
-}
-
-#tabRight11:hover {
+#bookTab11:hover {
 	z-index: 101;
 }
